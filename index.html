@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-image: url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-6.jpg);
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header>img {
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        header>h1 {
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+
+        main,
+        footer {
+            margin-left: 20px;
+        }
+
+        #experience td {
+            border: 1px solid #000;
+        }
+
+        footer>a {
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./picture.jpg">
+        <h1>Володимир Гриценко</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Технології:</h2>
+            <ul>
+                <li>C#, .NET</li>
+                <li>JS, React</li>
+                <li>Html, CSS</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Досвід роботи:</h2>
+            <table id="experience">
+                <tr>
+                    <td>№</td>
+                    <td>Назва організації</td>
+                    <td>З</td>
+                    <td>До</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Company 1</td>
+                    <td>03.08.2018</td>
+                    <td>03.09.2019</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Company 2</td>
+                    <td>10.10.2019</td>
+                    <td>...</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h2>Соц мережі:</h2>
+        <a href="https://www.facebook.com/volodymyr.hritsenko/">Facebook</a>
+    </footer>
+</body>
+
+</html>
